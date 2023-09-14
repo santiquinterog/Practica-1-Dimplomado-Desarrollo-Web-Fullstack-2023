@@ -1,3 +1,5 @@
+/* Conceptos Básicos */
+
 /* Variables */
 const variableConstate = "constante"
 var variableVar = "var"
@@ -206,11 +208,11 @@ if(true){
   console.log("Var dentro de bloque", pais);
 }
 
-console.log("Var dentro fuera", pais);
+console.log("Var fuera de bloque", pais);
 
 if(true){
   let ciudad = "Medellín"
-  console.log("Var dentro de bloque", ciudad);
+  console.log("Let dentro de bloque", ciudad);
 }
 
-console.log("Var dentro fuera", ciudad);
+console.log("Let fuera de bloque", ciudad);
