@@ -3,3 +3,4 @@
 ## Conceptos
 - HTML
 - CSS
+- JS
