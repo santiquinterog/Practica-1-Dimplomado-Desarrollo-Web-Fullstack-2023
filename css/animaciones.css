@@ -1,0 +1,28 @@
+p {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  font-size: 16px;
+  position: relative;
+  animation-name: animacion;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+  animation-direction: normal;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+@keyframes animacion {
+  from {
+    background-color: aqua;
+    left: 0px;
+    font-size: 16px;
+  }
+
+  to {
+    background-color: yellow;
+    left: 400px;
+    font-size: 32px;
+  }
+}

@@ -1,0 +1,21 @@
+/* Pseudo-elementos */
+
+.pseudoelemento::first-letter {
+  color: red;
+}
+
+.pseudoelemento::selection {
+  background-color: chartreuse;
+}
+
+
+/* Pseudo-clases */
+.pseudoclase:hover {
+  background-color: aquamarine;
+  color: orange;
+}
+
+div p:nth-child(3) {
+  background-color: black;
+  color: white;
+}

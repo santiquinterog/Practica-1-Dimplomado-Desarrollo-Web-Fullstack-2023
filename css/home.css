@@ -1,0 +1,63 @@
+/* Selectores */
+
+/* Universal */
+* {
+  text-transform: uppercase;
+}
+
+/* Clase */
+.selector-clase {
+  color: blue;
+}
+
+/* Clase */
+.selector-clase-2 {
+  text-decoration: underline;
+  text-transform: capitalize !important;
+}
+
+/* Elemento */
+h2 {
+  /* color: red;
+  text-transform: lowercase !important; */
+}
+
+/* ID */
+#selector-id {
+  background-color: aqua;
+  width: 200px;
+  text-align: center;
+}
+
+/* Prioridad Selectores */
+
+/* 
+
+- Selector Universal: 1
+- Selector Elemento:  10
+- Selector Clase:     100
+- Selector ID:        1000
+- Important:          10000
+
+*/
+
+
+/* Agrupando selectores */
+h3, .clase-h4, #id-p {
+  color: purple;
+  text-decoration:line-through;
+}
+
+/* Combinando selectores */
+
+p.clase-p {
+  color: red;
+}
+
+div h4 {
+  color: chartreuse;
+}
+
+div > h5 {
+  color: darkorchid;
+}

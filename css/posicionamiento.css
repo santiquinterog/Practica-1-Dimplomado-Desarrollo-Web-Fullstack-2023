@@ -1,0 +1,32 @@
+.especial {
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  border: 2px solid red;
+}
+
+.posicion {
+  /* position: static; */
+
+ /*  position: relative;
+  top: 50px;
+  left: 50px; */
+
+  /* position: fixed;
+  top: 50px;
+  left: 50px; */
+
+  /* position: absolute;
+  bottom: 0px;
+  left: 0px;
+  margin: 0; */
+
+  position: sticky;
+  top: 0;
+  left: 0;
+
+}
+
+/* div {
+  position: relative;
+} */

@@ -1,0 +1,23 @@
+img {
+  width: 500px;
+  /* height: 311.33px; */
+}
+
+p {
+  font-size: 20px;
+  background-color: chocolate;
+  color: #ffffff;
+}
+
+.parrafo1 {
+  background-color: black;
+}
+
+.parrafo2 {
+  color: blue;
+}
+
+a {
+  background-color: yellow;
+  margin-right: 15px;
+}

@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+}
+
+.contenedor {
+  padding: 20px;
+  margin: 20px 20px 20px 20px;
+  border: 3px solid black;
+}
+
+.propiedades-flexbox-padre {
+  display: flex;
+  
+  flex-direction: row;
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+
+  /* flex-wrap: nowrap; */
+  flex-wrap: wrap;
+  /* flex-wrap: wrap-reverse; */
+
+  flex-flow: row wrap;
+
+  justify-content: flex-start;
+
+}
+
+.card {
+  min-width: 190px;
+  margin: 10px 0px;
+}
